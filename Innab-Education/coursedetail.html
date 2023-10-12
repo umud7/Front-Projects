@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Navbar -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js" charset="utf-8"></script>
+
+    <!-- Footer CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <header class="sticky">
+        <a href="#" class="logo">Innab</a>
+        <div class="navigation">
+          <ul class="menu">
+            <div class="close-btn"></div>
+            <li class="menu-item"><a href="index.html">Ana Səhifə</a></li>
+            <li class="menu-item">
+              <a class="sub-btn" href="about.html">Haqqımızda</a>
+            </li>
+            <li class="menu-item">
+              <a class="sub-btn" href="korporativ.html">Korporativ<i class="fas fa-angle-down"></i></a>
+              <ul class="sub-menu">
+                <li class="sub-item"><a href="#">Təlimlər</a></li>
+                <li class="sub-item"><a href="#">Xidmətlər</a></li>
+              </ul>
+            </li>
+            <li class="menu-item"><a href="telimler.html">Təlimlər</a></li>
+            <li class="menu-item"><a href="blog.html">Bloq</a></li>
+            <li class="menu-item"><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+        <div class="menu-btn"></div>
+    </header>
+    
+    <section id="course-inner">
+        <div class="overview">
+          <img class="course-img" src="img/b1.jpg" alt="" />
+          <div class="course-head">
+            <div class="c-name">
+              <h2>SQL ilə Data Analitika Kursları</h2>
+              <p>
+                SQL ilə data analitikası kursunda iştirak etməklə siz müasir dövr ən çox tələb olunan bir ixtisasına sahib ola bilərsiniz.
+              </p>
+            </div>
+            <span>06/06/2015</span>
+          </div>
+          <hr />
+          <h3>SQL nədir?</h3>
+          <p>
+            Böyük həcmli məlumatlar ilə işləmək üçün alternativlərdən biri SQL sorğu dilidir. SQL sorğu dilinin istifadə edilməsi üçün məlumatlar hansısa bir bazaya daxil edilməlidir. Hamı tərəfindən istifadə olunabiləcək baza funksiyasını MS Access icra edə bilər. Access Microsoft Office proqram paketinin tərkibində olan məlumat bazası funsiyası daşıyır. Məlumatları Acces-ə daxil edərək SQL vasitəsilə lazımi hesablamaların aparılması və müxtəlif hesabatların hazırlanması mümkündür. SQL-in (structured query language) tərkibində olan əmrlər vasitəsilə bazada olan məlumatları çağırmaq, filter etmək, yenisini əlavə etmək, dəyişmək, silmək mümkündür.
+            <br /><br />
+            Məlumatlar access-də toplandıqdan sonra onları emal etmək üçün həm access-in tərkibində quraşdırılmış funksiyalardan istifadə etmək həm də SQL sorğu dilindən faydalanmaq olar. SQL sorğu dili həm accessin tərkibində quraşdırılmışdır həm də Oracle şirkəti tərəfindən təqdim olunan SQL Developer vasitəsilə istifadə oluna bilər.
+            Excel fayllarında olan böyük həcmli eyni struktura malik məlumatları accessdə bir cədvəldə birləşdirmək mümkündür. Məlumat eyni struktura malik olmasa da, ayrı-ayrı cədvəllər şəklində də bir bazaya toplamaq olar. Accessə məlumat aşağıdakı kimi daxil edilir:
+          </p>
+          <hr />
+          <h3>SQL – Məlumatların funksiyası</h3>
+          <p>
+            Daxil edilən məlumatlar baza funksiyası daşıyacaq. Bazada olan məlumatlar ilə işləmək üçün isə accessin funksiyası olan query-lərdən istifadə olunacaq. Query design bölməsini seçərək bizə lazım olan cədvəli seçə bilərik. Daha sonra aktiv olan pəncərədə lazımi sütunları əlavə edərək və daxili funksiyalar vasitəsilə əlavə hesablama sütunları yaradaraq yekun hesabat hazırlamaq mümkündür.
+          </p>
+          <br />
+          <p>
+            Bunun alternativi olan isə query design bölməsinə keçərkən açılan pəncərədən imtina edərək SQL view bölməsini aktivləşdirməkdir. Bu zaman artıq bütün bazaya SQL sorğuları vasitəsilə birbaşa müraciət etmək mümkündür.
+          </p>
+          <br /><br />
+          <p>
+            SQL ilə accessdə olan məlumatlarla işləmək üçün SQL developerdən də istifadə etmək olar. SQL developer bu linkdən yükləndikdən sonra həmin qovluqdan sqldeveloper faylı açılır. Açılan faylda connection bölməsi aktiv deyilsə viewdan həmin bölmə aktivləşdirilir. Daha sonra new connection seçilərək bu connectiona ad verilir, access bölməsi seçilərək browse edərək baza funksiyası daşıyacaq access fayl seçilir. Yekunda connect düyməsi seçilir və connection bölməsində verilmiş ad görsənir. Bu o deməkdir ki, artıq bazaya qoşulmuşuq.
+          </p>
+          <p>
+            Buradaykən, Sizdən kiçik bir xahişimiz var. Bildiyiniz kimi, biz – “INNAB” komandası olaraq ana dilində peşəkar inkişafı təmin etmək məqsədi ilə məzmun (kontent) yaratmaqla da məşğuluq. İşinə məsuliyyətlə və həvəslə yanaşan komandamız bu işi təmənnasız şəkildə yerinə yetirir. Komandamız məzmunlarımızın daha çox insanların izləməsini görüb daha da motivasiya olur. Bu işdə sizin də dəstəyinizə ehtiyacımız var. Bu postu paylaşmaqla, həmçinin hər baxıb bəyəndiyiniz videoları, məqalələri daha çox insana tövsiyyə etməklə, youtube kanalımıza, bloqumuza, facebook/linkedin/instagram səhifəmizə abunə olmaqla həm bizi motivə edə, həm də peşəkar inkişafınız üçün zəmin yarada bilərsiniz.
+          </p>
+          <hr />
+          <h3>Nə öyrənəcəksiniz</h3>
+          <div class="learn">
+            <p>
+              <i class="fa-regular fa-check-circle"></i> İstifadə olunan cədvəllər
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i>  Select əmri – məlumatın oxunması
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i> Update əmri – məlumatın yenilənməsi
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i> Delete əmri – məlumatı silmək
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i> Insert əmri – məlumat əlavə etmək
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i> Sum, average, count funksiyaları
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i>  In və not in şərtləri
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i> Join (1-ci hissə)
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i> Join (2-ci hissə)
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i> Like funksiyası vasitəsilə məlumatın axtarışı
+            </p>
+            <p>
+              <i class="fa-regular fa-check-circle"></i>  Group by – məlumatın ümumiləşdirilməsi
+            </p>
+          </div>
+        </div>
+  
+        <div class="enroll">
+          <h3>This course includes</h3>
+          <p><i class="fa-solid fa-video"></i>20 saatlıq dərs</p>
+          <p><i class="fa-regular fa-newspaper"></i>12 mövzu</p>
+          <p><i class="fa-solid fa-cloud-download"></i>Material Resurslar</p>
+          <p><i class="fa-solid fa-infinity"></i>Aktiv sorğu</p>
+          <p><i class="fa-solid fa-paperclip"></i>Ev tapşırıqları</p>
+          <p><i class="fa-solid fa-trophy"></i>Kurs sonunda rəsmi sertifikat</p>
+        </div>
+    </section>
+
+    <footer class="footer-section">
+      <div class="container">
+          <div class="footer-cta pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <div class="cta-text">
+                              <h4>Ünvan:</h4>
+                              <span>Nərimanov rayonu, Fətəli Xan Xoyski 118 A</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="fas fa-phone"></i>
+                          <div class="cta-text">
+                              <h4>Telefon:</h4>
+                              <span>050 290 61 21 <br>012 465 20 71</span>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-md-4 mb-30">
+                      <div class="single-cta">
+                          <i class="far fa-envelope-open"></i>
+                          <div class="cta-text">
+                              <h4>Email:</h4>
+                              <span>contact@innab.org <br> info@innab.org</span>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          <div class="footer-content pt-5 pb-5">
+              <div class="row">
+                  <div class="col-xl-4 col-lg-4 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-logo">
+                              <a href="index.html"><img src="img/Logo.png" class="img-fluid" alt="logo"></a>
+                          </div>
+                          <div class="footer-text">
+                              <p>İnnab” 02.06.2015-ci ildə Azərbaycanda ilk onlayn peşəkar inkişaf platforması kimi yaradılmışdır.Şirkətimizin vizyonu hər zaman xidmətləri ilə fərqlilik yaradan, hər kəsə individual yanaşan peşəkar inkişaf platforması olmaqdır.</p>
+                          </div>
+                          <div class="footer-social-icon">
+                              <span>Bizi izləyin</span>
+                              <a href="https://www.facebook.com/innab.org"><i class="fab fa-facebook-f facebook-bg"></i></a>
+                              <a href="https://www.linkedin.com/school/innab.org/"><i class="fab fa-linkedin linkedin-bg"></i></a>
+                              <a href="https://www.youtube.com/c/INNABonline"><i class="fab fa-youtube youtube-bg"></i></a>
+                              <a href="https://www.instagram.com/innab.az/"><i class="fab fa-instagram instagram-bg"></i></a>
+                              <a href="https://www.linkedin.com/school/innab.org/"><i class="fab fa-tiktok tiktok-bg"></i></a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-30">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Faydalı Linklər</h3>
+                          </div>
+                          <ul>
+                            <li><a href="index.html">Ana Səhifə</a></li>
+                            <li><a href="about.html">Haqqımızda</a></li>
+                            <li><a href="korporativ.html">Korporativ</a></li>
+                            <li><a href="telimler.html">Təlimlər</a></li>
+                            <li><a href="blog.html">Bloq</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+                  <div class="col-xl-4 col-lg-4 col-md-6 mb-50">
+                      <div class="footer-widget">
+                          <div class="footer-widget-heading">
+                              <h3>Abonə Olun</h3>
+                          </div>
+                          <div class="footer-text mb-25">
+                              <p>Email Address</p>
+                          </div>
+                          <div class="subscribe-form">
+                              <form action="#">
+                                  <input type="email" placeholder="Email Address">
+                                  <button><i class="fab fa-telegram-plane"></i></button>
+                              </form>
+                          </div>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+      <div class="copyright-area">
+          <div class="container">
+              <div class="row">
+                  <div class="col-xl-6 col-lg-6 text-center text-lg-left">
+                      <div class="copyright-text">
+                          <p>Copyright &copy; 2023. Bütün hüquqlar qorunur</p>
+                      </div>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 d-none d-lg-block text-right">
+                      <div class="footer-menu">
+                          <ul>
+                            <li><a href="index.html">Ana Səhifə</a></li>
+                            <li><a href="about.html">Haqqımızda</a></li>
+                            <li><a href="korporativ.html">Korporativ</a></li>
+                            <li><a href="telimler.html">Təlimlər</a></li>
+                            <li><a href="blog.html">Bloq</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                          </ul>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </footer>
+
+</body>
+</html>
