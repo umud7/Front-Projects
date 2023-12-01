@@ -12,16 +12,6 @@ document.querySelector('#search-btn').onclick = () =>{
     navbar.classList.remove('active');
 }
 
-// Top Icons JS Code
-
-$(document).ready(function() {
-    $('.glow').mouseenter(function() {
-      $(this).addClass('glow-effect');
-    });
-    $('.glow').mouseleave(function() {
-      $(this).removeClass('glow-effect');
-    });
-  });
 
 
     // Start Fixed Section Home Page
