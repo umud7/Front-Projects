@@ -374,7 +374,7 @@ body{
 
 .text-center{
   color: #f0ad4e;
-  margin: 15px;
+  margin: 25px;
 }
 
 .menu-items {
@@ -398,8 +398,8 @@ body{
 }
 
 .card img {
-    width: 267px;
-    height: 167px;
+    width: 257px;
+    height: 157px;
 }
 
 @media only screen and (max-width: 780px) and (min-width:590px) {
@@ -470,7 +470,20 @@ body{
     letter-spacing: 1px;
 }
 
+
+
 /* Menu */
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* features */
